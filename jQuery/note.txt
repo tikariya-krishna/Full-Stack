@@ -1,0 +1,31 @@
+J query is write less and do more library. it inhance js function. it halp in ajex and dom manipulation. j query provide plugings.$ is also j Query.
+
+J query syntax: $('selector').action() OR $('selector').function() both are equal.
+    ex:- $('p').click(()=>{
+        console.log("This is paraghrph tag");
+    });
+
+when use j query, whole html code need to be execute then j query code execute for this you can use document ready function and put all j query code in this function.
+syntax:- $(document).ready(()=>{// j Query code });
+
+
+There are main three type of selectors in j Query. elemet,id,class.
+other selector:- "*" is universal. "this" use particular class. "p.odd" is use p tag who's class is odd."p:first" it select first p.
+
+
+event:- user intract with page is known as event. for example click,double click.
+
+
+
+
+
+use on mathod to attach multipal events.
+ex:-     $('p').on(
+        {
+        click:function(){
+        console.log("This is paraghraph tag");
+        },
+        mouseleave:function(){
+            console.log("leave mouse");
+        }
+    });
